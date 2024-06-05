@@ -9,7 +9,7 @@
   "bugs": {
     "url": "https://github.com/djairoh/i3-layout-viewer/issues"
   },
-  "homepage": "https://github.com/cbenz/i3-layout-viewer",
+  "homepage": "https://github.com/djairoh/i3-layout-viewer",
   "main": "src/index.js",
   "bin": {
     "i3-layout-to-dot": "bin/cli.js"
