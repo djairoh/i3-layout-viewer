@@ -1,25 +1,29 @@
 {
   "name": "i3-layout-viewer",
   "version": "0.1.0",
-  "description": " Visualize the layout tree of a workspace in i3 window manager",
+  "description": "Visualize the layout tree of a workspace in the i3 window manager",
+  "main": "src/index.js",
+  "bin": {
+    "i3-layout-viewer": "bin/cli.js"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "run": "bin/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/djairoh/i3-layout-viewer.git"
   },
+  "author": "Djairo Hougee",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/djairoh/i3-layout-viewer/issues"
   },
-  "homepage": "https://github.com/djairoh/i3-layout-viewer",
-  "main": "src/index.js",
-  "bin": {
-    "i3-layout-to-dot": "bin/cli.js"
-  },
-  "scripts": {
-    "start": "node bin/cli.js"
-  },
-  "author": "Djairo Hougee",
-  "license": "GPLv3+",
+  "homepage": "https://github.com/djairoh/i3-layout-viewer#readme",
   "dependencies": {
+    "i3-layout-viewer": "^0.0.2",
     "jgf-dot": "^1.1.0",
     "read-file-stdin": "^0.2.1",
     "strip-json-comments": "^2.0.1"
